@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID","6435225"))
 API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
-BOT_TOKEN = getenv("BOT_TOKEN","5963562690:AAFBfHpP6wcx_xgPJiChfMvp_VBK9rBvFo8")
+BOT_TOKEN = getenv("BOT_TOKEN","7010915878:AAHwTZXKa2gqZT5ugxqOSHciCvgptdy1e30")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001603822916"))
@@ -36,7 +36,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "3000"))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 5242880000))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
-STRING1 = getenv("STRING_SESSION", "BQFa6ZYAiXCVn4MYtAUEBq7agN_cprAF7qcNO0_PEo92Pz_cO05Sj3l8WtHsxq6BVFzWqejhjvPSh_AlZTvZXOF-x03bss3tVZNTRU-cFoYmfql0SwLrYu2jbn3OztAr152FllnOKpXcYKyqDnGfOfaUu40My3gflNd70YstwIPLlmcvpjbqF_PWcOxmlfVxGMQQUwzIBoL60yy4vY8sj03zhJc8KKOJHTCGgo5cL70Ds1fMyDTj58UlxyhjddWugGoSpE32GqHgHX8tkmrMIVPvPM2kVB5Dgy0yGx21gX0AzRrItXLuCH9aIfEB6L1MvKArEfYVUeTNlQeE8U7SCqn7nQ-yhQAAAAG28kOcAA")
+STRING1 = getenv("STRING_SESSION", "AQFI-lsAmOjrMVdkRnFJWvPJ16I0LQk8OVc5j8D28hclTR1f_T3c3bi_kEqEBVUwgGFaGNggbzwDKumB6EBgNOb-_q12VFFOMQ-8aLEVu1IMEarw2YOc5KiBOpsH05Z5PbdI3n4kcp4SjbBGSiW7wZNxndFadm_z8T690ak61x1G29RjofcPhy36cRQnbqnmts-YyWmYVuGrR1ufK_U4nIy0Iw-Oc42CB54qJTOzGekM-LA_yhK2ZBFc2AcE4sqiQmVJco5zfHyVjeKwjc78Ph6kqjIEwlkllybySdav_GbaTWHePq8G9WWRLkczTwg9aESW02Pjd7H_vXUi-WzeOIQifbojkAAAAAF-YQMsAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -54,7 +54,7 @@ AMBOT = [
     "💫",
 ]
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/1689a709eb7480b555851.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/685709ad093730507337a.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
