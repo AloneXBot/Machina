@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID","6435225"))
 API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
-BOT_TOKEN = getenv("BOT_TOKEN","7010915878:AAHwTZXKa2gqZT5ugxqOSHciCvgptdy1e30")
+BOT_TOKEN = getenv("BOT_TOKEN","6127476417:AAEmNFj34bFiHLwvozMHbBQrhIIzCVrzgGg")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001603822916"))
@@ -54,7 +54,7 @@ AMBOT = [
     "💫",
 ]
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/1689a709eb7480b555851.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/685709ad093730507337a.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://te.legra.ph/file/685709ad093730507337a.jpg")
